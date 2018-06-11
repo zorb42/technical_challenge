@@ -57,17 +57,22 @@
 }
 
 /*Section need you*/
+.need-you {
+	background: #ffffff url("../../assets/img/feature-bg.jpg") no-repeat right top;
+	margin-top: 30px;
+}
+
 .need-you-left {
 	margin: 100px 0;
 }
 
 .need-you-left h3{
-	color: #828fff;
+	color: #fff;
 	font-size: 3em;
 }
 
 .need-you-left h5 {
-	color: #8195a7;
+	color: #fff;
 }
 
 .need-you-left h3, .need-you-left h5{

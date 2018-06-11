@@ -15,11 +15,19 @@
 		#messages{
 			min-width: 1110px !important;
 		}
+
+		h1 {
+			margin: 30px 0 0 0;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<div class="row-md-12">
+			<div class="title-page text-center">
+				<h1>Check Answers</h1>
+				<small><?= anchor('/', 'Back to homepage');?></small>
+			</div>
 			<div class="table-responsive">
 				<table id="messages" class="table table-hover">
 					<thead>
@@ -28,17 +36,20 @@
 							<th>Name</th>
 							<th>Subject</th>
 							<th>Message</th>
-							<th>Action</th>
+							<th class="text-center">Action</th>
 						</tr>
 					</thead>
 					<tbody>
 						<?php foreach ($data as $dt): ?>
-							<tr onclick="call_modal(<?=$dt->id?>)">
+							<tr>
 								<td><?= $dt->id ?></td>
 								<td><?= $dt->name ?></td>
 								<td><?= $dt->subject ?></td>
 								<td><?= substr($dt->message, 0, 10)."..." ?></td>
-								<td><button class="btn btn-danger" onclick="delete_message(this, <?=$dt->id?>)"><i class="far fa-trash-alt"></i></button></td>
+								<td class="text-center">
+									<button class="btn btn-primary" onclick="call_modal(<?=$dt->id?>)"><i class="far fa-eye"></i></button>
+									<button class="btn btn-danger" onclick="delete_message(this, <?=$dt->id?>)"><i class="far fa-trash-alt"></i></button>
+								</td>
 							</tr>
 						<?php endforeach ?>
 					</tbody>
@@ -96,7 +107,6 @@
 			data: {id: id},
 		})
 		.done(function(msg) {
-			console.log(msg);
 			$('#modalShowInfo').on('show.bs.modal', function (event) {
 				var modal = $(this);
 				modal.find('.name').text(msg.name);
