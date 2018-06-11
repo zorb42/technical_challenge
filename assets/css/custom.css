@@ -22,37 +22,36 @@
 	color: #9791ff;
 }
 
-/*Card billions*/
-.card-billions {
-	padding: 150px;
-	background-color: #38a4ff;
-}
-
-.cards {
+article {
+	padding: 7rem 1rem;
 	-webkit-box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
 }
 
-.cards h2 {
-	font-size: 4em;
+article h2 {
+	font-size: 4rem;
 	margin-bottom: 10px;
 }
 
-.cards p {
-	font-size: 1.3em;
+article p {
+	font-size: 1.3rem;
 }
+
+/*Card billions*/
+.card-billions {
+	background-color: #38a4ff;
+}
+
 
 /*Card slave*/
 .card-slave {
-	padding: 150px;
 	background-color: #94ceff;
 	margin-top: 30px;
 }
 
 /*Card humanity*/
 .card-humanity {
-	padding: 150px;
 	background-color: #66b9ff;
 }
 

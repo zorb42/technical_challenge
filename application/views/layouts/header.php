@@ -18,17 +18,15 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="assets/css/linearicons.css">
-			<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-			<link rel="stylesheet" href="assets/css/bootstrap.css">
-			<link rel="stylesheet" href="assets/css/magnific-popup.css">
-			<link rel="stylesheet" href="assets/css/nice-select.css">	
-			<link rel="stylesheet" href="assets/css/hexagons.min.css">							
-			<link rel="stylesheet" href="assets/css/animate.min.css">
-			<link rel="stylesheet" href="assets/css/owl.carousel.css">
-			<link rel="stylesheet" href="assets/css/main.css">
-			<link rel="stylesheet" href="assets/css/custom.css">
-		</head>
+		<!-- CSS ============================================= -->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/nice-select.css">	
+		<link rel="stylesheet" href="assets/css/hexagons.min.css">							
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/custom.css">
+	</head>
