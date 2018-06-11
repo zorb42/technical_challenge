@@ -28,6 +28,12 @@
 	background-color: #38a4ff;
 }
 
+.cards {
+	-webkit-box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
+}
+
 .cards h2 {
 	font-size: 4em;
 	margin-bottom: 10px;
@@ -41,10 +47,29 @@
 .card-slave {
 	padding: 150px;
 	background-color: #94ceff;
+	margin-top: 30px;
 }
 
 /*Card humanity*/
 .card-humanity {
 	padding: 150px;
 	background-color: #66b9ff;
+}
+
+/*Section need you*/
+.need-you-left {
+	margin: 100px 0;
+}
+
+.need-you-left h3{
+	color: #828fff;
+	font-size: 3em;
+}
+
+.need-you-left h5 {
+	color: #8195a7;
+}
+
+.need-you-left h3, .need-you-left h5{
+	margin: 10px 0;
 }
