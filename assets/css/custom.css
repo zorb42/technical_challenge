@@ -1,0 +1,50 @@
+.form {
+	background-color: #fff;
+	padding: 50px 30px 10px;
+	border-radius: 10px;
+	margin: 60px 0px;
+}
+
+.form input {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.form .btn-send {
+	background-color: #9391ff;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 40px;
+}
+
+.form .title-form {
+	font-size: 27px;
+	color: #9791ff;
+}
+
+/*Card billions*/
+.card-billions {
+	padding: 150px;
+	background-color: #38a4ff;
+}
+
+.cards h2 {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+
+.cards p {
+	font-size: 1.3em;
+}
+
+/*Card slave*/
+.card-slave {
+	padding: 150px;
+	background-color: #94ceff;
+}
+
+/*Card humanity*/
+.card-humanity {
+	padding: 150px;
+	background-color: #66b9ff;
+}
