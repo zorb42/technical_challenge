@@ -27,15 +27,15 @@
 }
 
 article {
-	padding: 7rem 1rem;
+	padding: 6rem 1rem;
 	-webkit-box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 80px -30px rgba(0,0,0,0.75);
 }
 
 article h2 {
-	font-size: 4rem;
-	margin-bottom: 10px;
+	font-size: 3.5rem;
+	margin-bottom: 1rem;
 }
 
 article p {
@@ -57,20 +57,14 @@ article p {
 	background-color: #36a4ff;
 }
 
-
-
-
 /*Section need you*/
-.need-you {
-}
-
 .need-you-left {
-	margin: 100px 0;
+	padding: 10rem 0;
 }
 
 .need-you-left h3{
 	color: #8785ff;
-	font-size: 3em;
+	font-size: 4rem;
 }
 
 .need-you-left h5 {
