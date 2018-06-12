@@ -67,10 +67,6 @@ article p {
 	font-size: 4rem;
 }
 
-.need-you-left h5 {
-	color: #fff;
-}
-
-.need-you-left h3, .need-you-left h5{
-	margin: 10px 0;
+.need-you-left h3, .need-you-left h4{
+	margin: 1rem;
 }
